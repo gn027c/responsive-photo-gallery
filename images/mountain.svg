@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
-        <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#87ceeb"/><stop offset="100%" stop-color="#e0f6ff"/></linearGradient></defs>
-        <rect width="400" height="300" fill="url(#sky)"/>
-        <polygon points="50,260 160,80 270,260" fill="#5c6b73"/>
-        <polygon points="160,80 135,130 160,115 185,130" fill="#ffffff"/>
-        <polygon points="180,260 280,110 380,260" fill="#758a99"/>
-        <polygon points="280,110 260,145 280,135 300,145" fill="#ffffff"/>
-        <rect y="240" width="400" height="60" fill="#2d6a4f"/>
-    </svg>

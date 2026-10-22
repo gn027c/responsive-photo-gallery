@@ -1,7 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
-        <rect width="400" height="300" fill="#e9ecef"/>
-        <polygon points="40,170 140,60 240,170" fill="#495057"/>
-        <polygon points="180,170 280,80 380,170" fill="#6c757d"/>
-        <rect y="160" width="400" height="140" fill="#0096c7"/>
-        <path d="M0,200 Q100,195 200,205 T400,200 L400,300 L0,300 Z" fill="#0077b6"/>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%" role="img" aria-label="Alpine Lake">
+  <defs>
+    <linearGradient id="grad_lake" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#134e5e" />
+      <stop offset="100%" stop-color="#71b280" />
+    </linearGradient>
+    <radialGradient id="sun_lake" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#2ecc71" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#2ecc71" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#grad_lake)" />
+  <circle cx="300" cy="180" r="140" fill="url(#sun_lake)" />
+  <path d="M0 450 L120 280 L240 370 L400 230 L530 360 L600 310 L600 450 Z" fill="#2c3e50" opacity="0.85" />
+  <path d="M0 450 L80 340 L180 400 L320 300 L460 410 L600 360 L600 450 Z" fill="#111111" opacity="0.6" />
+  <text x="300" y="420" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">Alpine Lake</text>
+</svg>
